@@ -17,7 +17,7 @@ public class JavaphpApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JavaphpApplication.class, args);
 		
-		for (int i = 0; i < 11; i++) {
+		/*for (int i = 0; i < 11; i++) {
 	        try {
 	            HttpClient client = HttpClient.newHttpClient();
 
@@ -44,7 +44,10 @@ public class JavaphpApplication {
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	        }
-		}
+		}*/
+		
+		Decoder dec = new Decoder();
+		dec.decoderStringHex("394169624c43686462394d355437493343");
 		
 	}
 
