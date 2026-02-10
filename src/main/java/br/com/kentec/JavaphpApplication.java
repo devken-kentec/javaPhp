@@ -47,7 +47,7 @@ public class JavaphpApplication {
 		}*/
 		
 		Decoder dec = new Decoder();
-		dec.decoderStringHex("394169624c43686462394d355437493343");
+		dec.decoderStringHex("795841594c5a78357732684f4c4c483771");
 		
 	}
 
